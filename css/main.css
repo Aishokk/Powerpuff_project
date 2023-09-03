@@ -1,0 +1,231 @@
+
+
+/********************** MAIN STARTS *************************/
+
+
+.main {
+    background: url(../images/image-1.jpeg);
+    padding-left: 180px;
+    padding-right: 180px;
+    height: 836px;
+    background-size: cover;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+.main-title {
+    color: rgb(50, 50, 138);
+}
+
+.main-title-1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 59px;
+    letter-spacing: 1px;
+    text-align: left;
+    padding-top: 110px;
+}
+
+.main-title-2 {
+    display: flex;
+    margin-bottom: 30px;
+    color:#1d644e;
+}
+
+.main-title-2 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.main-nav-menu {
+    padding-top: 13px;
+    border-radius: 2px;
+    display: flex;
+}
+
+.nav-menu-logo img{
+    width: 75px;
+    height: 70px;
+    margin-right: 180px;
+}
+
+.navigation-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 1px;
+    gap: 37px;
+    color:aqua;
+}
+
+.navigation-menu a {
+    text-decoration: none;
+    color: rgb(50, 50, 138);
+}
+
+.navigation-menu a:hover {
+    color: #FD0BCE;
+    text-decoration: underline;
+    text-underline-position: under;
+    cursor: pointer;
+}
+
+/********************** MAIN ENDS ***************************/
+/********************** WELCOME STARTS ***************************/
+.welcome {
+    background: url(../images/image-2.jpeg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 274px;
+    padding-bottom: 50px;
+    padding-right: 274px;
+    height: 350px;
+}
+
+.welcome-text-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 18px;
+    display: flex;
+}
+
+.welcome-text-title .concl {
+    color: #FD0BCE;
+    margin-left: 5px;
+}
+
+.welcome-text-main {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.welcome-text-end {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FD0BCE;
+}
+/********************** WELCOME ENDS ***************************/
+/********************** CATALOG STARTS ***************************/
+.catalog {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/image-3.jpeg') center/cover no-repeat;
+    height: 900px;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 180px;
+    padding-right: 180px;
+    text-align: center;
+}
+
+.catalog-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 59px;
+    color: #123429;
+    padding-top: 0;
+    letter-spacing: 1px;
+}
+
+.catalog-menu-item {
+    opacity: 0.5;
+    font-size: 30px;
+}
+
+.catalog-menu-item:hover {
+    font-weight: bold;
+    color:  rgb(50, 50, 138);
+    text-transform: uppercase;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.catalog-line-menu {
+    margin-top: 25px;
+    gap: 30px;
+    text-align: center;
+    display: flex;
+}
+/********************************** SECTION-1 *****************************************/
+
+.trdelnik-menu,
+.chimni-dogi-menu,
+.sandwiches-menu {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(252, 234, 234);
+    font-weight: bold;
+}
+
+
+/********************** CONSTRUCTOR ENDS ***************************/
+/********************** LOCATION STARTS**********************/
+.location {
+    background-image: url(../images/image-4.jpeg);
+    background-size: cover;
+}
+.location-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: center;    
+    color:#FFFFFF;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.location-title-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+    text-decoration: none;
+}
+
+.water-map {
+    background-color: rgb(50, 50, 138);
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 25px;
+}
+
+.water-map:hover {
+    cursor: pointer;
+    background-color: rgb(25, 25, 73);
+}
+
+.water-map p{
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+/********************** LOCATION ENDS**********************/
+/********************** FOOTER STARTS **********************/
